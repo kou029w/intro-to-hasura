@@ -26,27 +26,31 @@ GraphQL サーバー
 
 ## GraphQL
 
-> - GraphQL とはデータを問い合わせるクエリ言語仕様と周辺技術
-> - 単一リクエスト/型システム/開発ツール
+クライアント・ドリブンな開発<sup>[^1]</sup>を実現するための API 仕様
+
+- データを問い合わせるクエリ言語仕様と周辺技術
+- 単一リクエスト/型システム/開発ツール
 
 ![bg right:22% w:200px][graphql.svg]
 
+[^1]: https://about.sourcegraph.com/graphql/graphql-client-driven-development/
+
 [graphql.svg]: https://cdnjs.cloudflare.com/ajax/libs/simple-icons/5.7.0/graphql.svg
 
-<!-- _footer: 引用元: スライド [GraphQL 概論 (拙著)](https://kou029w.github.io/intro-to-graphql/) -->
+<!-- _footer: ^1: Dan Schafer (2017) [GraphQL: Client-Driven Development][^1] -->
 
 ---
 
 ## Hasura を使うメリット
 
-GraphQL にはコードジェネレーターがあり、多くの言語をサポートされている<sup>[^1]</sup>
+GraphQL にはコードジェネレーターがあり、多くの言語をサポートされている<sup>[^2]</sup>
 しかし、バックエンドでは SQL 等のデータソースのクエリーに変換する必要がある
 
 Hasura を使うと GraphQL から SQL への変換を自動的に実現可能
 
-[^1]: https://www.graphql-code-generator.com/
+[^2]: https://www.graphql-code-generator.com/
 
-<!-- _footer: ^1: [https://www.graphql-code-generator.com/][^1] -->
+<!-- _footer: ^2: [https://www.graphql-code-generator.com/][^2] -->
 
 ---
 
