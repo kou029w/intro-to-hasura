@@ -43,14 +43,14 @@ GraphQL サーバー
 
 ## Hasura を使うメリット
 
-GraphQL にはコードジェネレーターがあり、多くの言語をサポートされている<sup>[^2]</sup>
+GraphQL は多くのプログラミング言語で使うことができる<sup>[^2]</sup>
 しかし、バックエンドでは SQL 等のデータソースのクエリーに変換する必要がある
 
-Hasura を使うと GraphQL から SQL への変換を自動的に実現可能
+Hasura を使うと GraphQL から SQL に自動的に翻訳することが可能
 
-[^2]: https://www.graphql-code-generator.com/
+[^2]: https://graphql.org/code/
 
-<!-- _footer: ^2: [https://www.graphql-code-generator.com/][^2] -->
+<!-- _footer: ^2: [GraphQL Code Libraries, Tools and Services][^2] -->
 
 ---
 
