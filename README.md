@@ -67,7 +67,7 @@ Hasura を使うと GraphQL から SQL に自動的に翻訳することが可�
 [RESTified GraphQL Endpoints (2.0 の新機能)](https://hasura.io/docs/latest/graphql/core/api-reference/restified.html)
 GraphQL の REST 化のサポート
 
-Query/Mutation を REST エンドポイントに対応付けることが可能
+Query/Mutation を REST API エンドポイントに対応付けることが可能
 GraphQL API と同様のレスポンスを得る
 
 ---
