@@ -15,8 +15,10 @@ WebDINO Japan エンジニア
 
 https://hasura.io
 
-GraphQL サーバー
-接続したデータベースを自動的に GraphQL API として提供
+すばやく構築できる GraphQL サーバー
+
+接続したデータベースを\
+GraphQL API として提供できる
 
 ![bg right:45% h:600px](https://hasura.io/static/schema-query-3e7ddf6d398359f910d334df09391638.svg)
 
@@ -44,20 +46,21 @@ API の問い合わせ言語
 
 ## GraphQL と Hasura
 
-GraphQL は多くのプログラミング言語で使うことができる
-しかし、バックエンドでは SQL 等のデータソースのクエリーに変換する必要がある
+GraphQL は多くのプログラミング言語から扱える
+GraphQL サーバーは SQL 等のデータソースのクエリーを発行しなければならない
 
-Hasura を使うことで GraphQL と SQL を自動的に相互変換できる
+Hasura を使うことで GraphQL API の構築・運用をすばやく行える
+Hasura を使うことで開発者はデータを扱うアプリケーションの開発に集中できる
 
 ---
 
 ## Hasura の機能
 
-[RESTified GraphQL Endpoints (2.0 の新機能)](https://hasura.io/docs/latest/graphql/core/api-reference/restified.html)
-GraphQL の REST 化のサポート
+[REST Connectors for Actions (2.1 の新機能)](https://hasura.io/docs/latest/graphql/core/actions/rest-connectors.html)
+REST API を GraphQL API として提供できる
 
-Query/Mutation を REST API エンドポイントに対応可能
-GraphQL API と同様のレスポンスを得る
+[RESTified GraphQL Endpoints (2.0 の新機能)](https://hasura.io/docs/latest/graphql/core/api-reference/restified.html)
+GraphQL API を REST API として提供できる
 
 ![bg right:30% w:200px](https://cdnjs.cloudflare.com/ajax/libs/simple-icons/5.7.0/graphql.svg)
 
