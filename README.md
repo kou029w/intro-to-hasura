@@ -57,10 +57,10 @@ Hasura を使うことで開発者はデータを扱うアプリケーション�
 ## Hasura の機能
 
 [REST Connectors for Actions (2.1 の新機能)](https://hasura.io/docs/latest/graphql/core/actions/rest-connectors.html)
-REST API を GraphQL API として提供できる
+REST API を GraphQL API として提供できる機能
 
 [RESTified GraphQL Endpoints (2.0 の新機能)](https://hasura.io/docs/latest/graphql/core/api-reference/restified.html)
-GraphQL API を REST API として提供できる
+GraphQL API を REST API として提供できる機能
 
 ![bg right:30% w:200px](https://cdnjs.cloudflare.com/ajax/libs/simple-icons/5.7.0/graphql.svg)
 
