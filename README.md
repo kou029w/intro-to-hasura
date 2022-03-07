@@ -36,7 +36,9 @@ API の問い合わせ言語
 - 型システム
 - 便利なツール
 
-![bg right w:200px](https://cdnjs.cloudflare.com/ajax/libs/simple-icons/5.7.0/graphql.svg)
+![bg fit right:60% State of JS 2020](https://stateofx-images.netlify.app/captures/js2020/en-US/datalayer_experience_ranking.png)
+
+<!-- _footer: 図の出典: "State of JS 2020" データ層 https://2020.stateofjs.com/ja-JP/technologies/datalayer/ -->
 
 ---
 
@@ -49,13 +51,15 @@ Hasura を使うことで GraphQL と SQL を自動的に相互変換できる
 
 ---
 
-## Hasura 2.0 の機能
+## Hasura の機能
 
 [RESTified GraphQL Endpoints (2.0 の新機能)](https://hasura.io/docs/latest/graphql/core/api-reference/restified.html)
 GraphQL の REST 化のサポート
 
-Query/Mutation を REST API エンドポイントに対応付けることが可能
+Query/Mutation を REST API エンドポイントに対応可能
 GraphQL API と同様のレスポンスを得る
+
+![bg right:30% w:200px](https://cdnjs.cloudflare.com/ajax/libs/simple-icons/5.7.0/graphql.svg)
 
 ---
 
@@ -63,7 +67,22 @@ GraphQL API と同様のレスポンスを得る
 
 ---
 
-## Hasura で作る REST API
+<!-- prettier-ignore-start -->
+## Hasuraで作るREST API
+<!-- prettier-ignore-end -->
+
+<iframe
+  src="https://codesandbox.io/embed/github/kou029w/hasura-rest-hands-on/tree/main/frontend?codemirror=1&hidenavigation=1&view=preview&module=/src/App.vue"
+  style="
+    width: 100%;
+    height: 500px;
+    border: 0;
+    border-radius: 4px;
+    overflow: hidden;
+  "
+  title="vue3-hasura-rest"
+  sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
+></iframe>
 
 https://kou029w.github.io/hasura-rest-hands-on/
 
