@@ -9,6 +9,15 @@ WebDINO Japan エンジニア
 [渡邉浩平](https://github.com/kou029w)
 ![w:200](https://github.com/kou029w.png)
 
+<script>
+window.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("a")?.forEach(function (a) {
+    a.setAttribute("target", "_blank");
+    a.setAttribute("rel", "noreferrer");
+  });
+});
+</script>
+
 ---
 
 ## Hasura
@@ -74,8 +83,10 @@ Hasura を使うことで GraphQL API・REST API の構築・運用をすばや�
 
 ## Hasura で作る REST API
 
+https://kou029w.github.io/hasura-rest-hands-on/
+
 <iframe
-  src="https://codesandbox.io/embed/github/kou029w/hasura-rest-hands-on/tree/main/frontend?codemirror=1&hidenavigation=1&view=preview&module=/src/App.vue"
+  src="https://codesandbox.io/embed/github/kou029w/hasura-rest-hands-on/tree/main/frontend?codemirror=1&hidenavigation=1&module=/src/App.vue"
   style="
     width: 100%;
     height: 500px;
@@ -87,7 +98,7 @@ Hasura を使うことで GraphQL API・REST API の構築・運用をすばや�
   sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
 ></iframe>
 
-https://kou029w.github.io/hasura-rest-hands-on/
+REST API のデモ: https://memo-demo.hasura.app/api/rest/page/1
 
 ---
 
