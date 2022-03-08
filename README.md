@@ -86,7 +86,7 @@ Hasura を使うことで GraphQL API・REST API の構築・運用をすばや�
 https://kou029w.github.io/hasura-rest-hands-on/
 
 <iframe
-  src="https://codesandbox.io/embed/github/kou029w/hasura-rest-hands-on/tree/main/frontend?codemirror=1&hidenavigation=1&module=/src/App.vue"
+  src="https://codesandbox.io/embed/github/kou029w/hasura-rest-hands-on/tree/main/frontend?codemirror=1&hidenavigation=1&view=preview&module=/src/App.vue"
   style="
     width: 100%;
     height: 500px;
