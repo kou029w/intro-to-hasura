@@ -98,8 +98,6 @@ https://kou029w.github.io/hasura-rest-hands-on/
   sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
 ></iframe>
 
-REST API のデモ: https://memo-demo.hasura.app/api/rest/page/1
-
 ---
 
 ## ![h:0.8em][github.svg] フィードバック
