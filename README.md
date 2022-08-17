@@ -67,10 +67,10 @@ Hasura を使うことで GraphQL API の構築・運用をすばやく行える
 
 GraphQL だけでなく REST API の中継サーバーとして使うこともできる
 
-[REST Connectors for Actions (2.1 の新機能)](https://hasura.io/docs/latest/graphql/core/actions/rest-connectors.html)
+[REST Connectors for Actions (2.1 の新機能)](https://hasura.io/docs/latest/actions/rest-connectors/)
 REST API を GraphQL API として提供できる機能
 
-[RESTified GraphQL Endpoints (2.0 の新機能)](https://hasura.io/docs/latest/graphql/core/api-reference/restified.html)
+[RESTified GraphQL Endpoints (2.0 の新機能)](https://hasura.io/docs/latest/api-reference/restified/)
 GraphQL API を REST API として提供できる機能
 
 Hasura を使うことで GraphQL API・REST API の構築・運用をすばやく行える
