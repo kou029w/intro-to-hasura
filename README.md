@@ -10,15 +10,6 @@ WebDINO Japan エンジニア
 [渡邉浩平](https://github.com/kou029w)
 ![w:200](https://github.com/kou029w.png)
 
-<script>
-window.addEventListener("DOMContentLoaded", function () {
-  document.querySelectorAll("a")?.forEach(function (a) {
-    a.setAttribute("target", "_blank");
-    a.setAttribute("rel", "noreferrer");
-  });
-});
-</script>
-
 ---
 
 ## Hasura
@@ -47,7 +38,9 @@ API の問い合わせ言語
 - 型システム
 - 便利なツール
 
-![bg fit right:60% State of JS 2020](https://stateofx-images.netlify.app/captures/js2020/en-US/datalayer_experience_ranking.png)
+![bg right:60% State of JS 2020](./assets/datalayer-experience-ranking.png)
+
+データ層分野
 
 <!-- _footer: 図の出典: "State of JS 2020" データ層 https://2020.stateofjs.com/ja-JP/technologies/datalayer/ -->
 
@@ -105,3 +98,14 @@ https://kou029w.github.io/hasura-rest-hands-on/
 [このスライドを編集する](https://github.com/kou029w/intro-to-hasura/edit/main/README.md) / [問題を報告する](https://github.com/kou029w/intro-to-hasura/issues/new)
 
 [github.svg]: https://cdnjs.cloudflare.com/ajax/libs/simple-icons/5.7.0/github.svg
+
+---
+
+<script>
+window.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("a")?.forEach(function (a) {
+    a.setAttribute("target", "_blank");
+    a.setAttribute("rel", "noreferrer");
+  });
+});
+</script>
