@@ -1,7 +1,8 @@
 name: github-pages
 on:
   push:
-    branches: [main]
+    branches:
+      - main
 jobs:
   main:
     permissions:
@@ -10,9 +11,9 @@ jobs:
     environment: github-pages
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - run: make build
-      - uses: actions/upload-pages-artifact@v1
+      - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
-      - uses: actions/deploy-pages@v1
+      - uses: actions/deploy-pages@v4
