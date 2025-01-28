@@ -30,19 +30,13 @@ GraphQL API として提供できる
 
 https://graphql.org
 
-API の問い合わせ言語
+- GraphQL とは API の問い合わせ言語
+- 特徴
+  - 単一リクエスト … クライアントの無駄なやり取りを減らせる
+  - 型システム … プラットフォームを問わない
+  - 便利なツール … 設計変更しやすい
 
-特徴
-
-- 単一リクエスト
-- 型システム
-- 便利なツール
-
-![bg right:60% State of JS 2020](./assets/datalayer-experience-ranking.png)
-
-データ層分野
-
-<!-- _footer: 図の出典: "State of JS 2020" データ層 https://2020.stateofjs.com/ja-JP/technologies/datalayer/ -->
+<!-- _footer: 参考文献: [GraphQL とは - GraphQL 概論](https://kou029w.github.io/intro-to-graphql/) -->
 
 ---
 
@@ -98,8 +92,6 @@ https://kou029w.github.io/hasura-rest-hands-on/
 [このスライドを編集する](https://github.com/kou029w/intro-to-hasura/edit/main/README.md) / [問題を報告する](https://github.com/kou029w/intro-to-hasura/issues/new)
 
 [github.svg]: https://cdnjs.cloudflare.com/ajax/libs/simple-icons/5.7.0/github.svg
-
----
 
 <script>
 window.addEventListener("DOMContentLoaded", function () {
